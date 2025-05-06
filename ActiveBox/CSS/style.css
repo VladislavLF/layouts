@@ -1,0 +1,490 @@
+body {
+margin: 0 auto;
+cursor: default;
+}
+
+a{
+text-decoration: none;
+color: #fff;
+}
+
+.container{
+width: 1170px;
+margin: 0 auto;
+}
+
+/*------------------------1PAGE-BEGIN------------------------------*/
+
+.page1_bg{
+position: absolute;
+}
+
+.header{
+position: relative;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding-top: 40px;
+margin-bottom: 40px;
+}
+
+.header_nav a{
+margin-right: 60px;
+color: #cbccd3;
+font-family: 'Raleway';
+font-weight: 700;
+font-size: 13px;
+text-transform: uppercase;
+}
+
+.header_nav a:last-child{
+margin-right: 0;      
+}
+
+.header_nav a:hover{
+color: #fff;
+}
+
+.page1_main{
+position: relative;
+text-align: center;
+margin: 120px 120px 160px 120px ;
+}
+
+.page1_heading{
+font-family: 'Open Sans';
+font-weight: 700;
+font-size: 65px;
+text-transform: uppercase;
+color: #fff;
+margin-bottom: 45px;
+}
+
+.page1_text{
+font-family: 'Raleway';
+font-weight: 400;
+font-size: 22px;
+color: #e3e4e7;
+margin-bottom: 80px;
+}
+
+.page1_button{
+font-family: 'Raleway';
+font-weight: 600;
+font-size: 13px;
+color: #e3e4e7;
+text-transform: uppercase;
+width: 200px;
+height: 50px;
+margin: 0 auto;
+border-radius: 3px;
+background-color: #e84545;
+display: flex;
+align-items: center;
+justify-content:space-around;
+}
+
+
+.page1_button:hover{
+cursor: pointer;
+opacity: .9;
+}
+
+a page1_button{
+width: 200px;
+height: 50px;
+}
+
+/*------------------------1PAGE-END--------------------------------*/
+/*------------------------2PAGE-BEGIN------------------------------*/
+
+.page2_main{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+margin-bottom: 100px;
+}
+
+.page2_block{
+width: 300px;
+text-align: center;
+margin-top: 100px;
+}
+
+.page2_block_img{
+margin-bottom: 40px;
+}
+
+.page2_block_heading{
+font-family: 'Raleway';
+font-weight: 700;
+font-size: 14px;
+text-transform: uppercase;
+color: #2d3033;
+margin-bottom: 30px;
+}
+
+.page2_block_text{
+font-family: 'Raleway';
+font-weight: 400;
+font-size: 14px;
+color: #6c7279;
+}
+
+/*------------------------2PAGE-END--------------------------------*/
+/*------------------------3PAGE-BEGIN------------------------------*/
+
+.page3_main{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+margin-bottom: 100px;
+}
+
+.page3_block{
+max-width:26%;
+max-height: 352px;
+}
+
+
+.page3_block_heading{
+position: absolute;
+opacity: 0;
+font-family: 'Raleway';
+font-weight: 700;
+font-size: 14px;
+text-transform: uppercase;
+color: #fff;
+}
+
+.page3_block_text{
+position: absolute;
+opacity: 0;
+font-family: 'Raleway';
+font-weight: 400;
+font-size: 14px;
+color: #fff;
+}
+
+.page3_block_hover:hover
+.page3_block img{
+opacity: .1;
+}
+
+.page3_block:hover
+.page3_block_heading{
+opacity: 1;
+padding: 160px 180px 0 180px;
+}
+
+.page3_block:hover
+.page3_block_text{
+opacity: 1;
+padding: 190px 160px 0 160px;
+}
+
+.page3_block_hover:hover{
+background-color: #e85250;
+max-height: 350px;
+position: relative;
+cursor:pointer;
+}
+
+/*------------------------3PAGE-END--------------------------------*/
+/*------------------------4PAGE-BEGIN------------------------------*/
+
+.page4_main{
+margin-bottom: 100px;
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+
+.page4_block{
+width: 23%;
+text-align: start;
+}
+
+.page4_block_img{
+margin-bottom: 30px;
+}
+
+.page4_block_heading{
+font-family: 'Raleway';
+font-weight: 400;
+font-size: 22px;
+color: #2d3033;
+margin-bottom: 15px;
+}
+
+.page4_block_underheading{
+font-family: 'Raleway';
+font-weight: 400;
+font-size: 13px;
+color: #e84545;
+text-transform: uppercase;
+margin-bottom: 30px;
+}
+
+.page4_block_text{
+font-family: 'Raleway';
+font-weight: 400;
+font-size: 14px;
+color: #6c7279;
+margin-bottom: 30px;
+}
+
+.page4_block_logos{
+display: flex;
+justify-content: space-between;
+width: 135px;
+}
+
+.page4_block_logos_facebook{
+width: 40px;
+height: 40px;
+border: 1px solid #c6cacc;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+.page4_block_logos_twitter{
+width: 40px;
+height: 40px;
+border: 1px solid #c6cacc;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+.page4_block_logos_instagram{
+width: 40px;
+height: 40px;
+border: 1px solid #c6cacc;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+.page4_block_logos_facebook:hover{
+background-color: #e8ecee;
+}
+
+.page4_block_logos_twitter:hover{
+background-color: #e8ecee;
+}
+
+.page4_block_logos_instagram:hover{
+background-color: #e8ecee;
+}
+
+/*------------------------4PAGE-END--------------------------------*/
+/*------------------------5PAGE-BEGIN------------------------------*/
+
+.page5_main{
+margin-bottom: 100px;
+display: flex;
+}
+
+.page5_pic{
+height: 500px;
+max-width:50%;
+}
+
+.page5_block{
+background-color: #53354a;
+height: 500px;
+width: 50%;
+padding-left: 85px;
+padding-right: 365px;
+}
+
+.page5_block_quote{
+font-family: 'Cardo';
+font-weight: 400;
+font-style: italic;
+font-size: 36px;
+color: #fff;
+padding-top: 115px;
+margin-bottom: 40px;
+}
+
+.page5_block_text{
+font-family: 'Raleway';
+font-weight: 700;
+font-size: 13px;
+color: #fff;
+text-transform: uppercase;
+margin-bottom: 65px;
+}
+
+.page5_block_ellipse{
+padding-left: 200px;
+}
+
+/*------------------------5PAGE-END--------------------------------*/
+/*------------------------6PAGE-BEGIN------------------------------*/
+
+.page6_main{
+text-align: center;
+margin-bottom: 100px;
+}
+
+.page6_heading{
+font-family: 'Raleway';
+font-weight: 300;
+font-size: 28px;
+color: #2d3033;
+margin-bottom: 20px;
+}
+
+.page6_text{
+font-family: 'Raleway';
+font-weight: 700;
+font-size: 13px;
+color: #2d3033;
+text-transform: uppercase;
+margin-bottom: 45px;
+}
+
+.page6_button{
+font-family: 'Raleway';
+font-weight: 600;
+font-size: 13px;
+color: #e3e4e7;
+text-transform: uppercase;
+width: 280px;
+height: 50px;
+margin: 0 auto;
+border-radius: 3px;
+background-color: #e84545;
+display: flex;
+align-items: center;
+justify-content:space-around;
+}
+
+.page6_button:hover{
+cursor: pointer;
+opacity: .9;
+}
+
+a page6_button{
+width: 280px;
+height: 50px;
+}
+
+/*------------------------6PAGE-END--------------------------------*/
+/*------------------------7PAGE-BEGIN------------------------------*/
+
+.page7_bg{
+background-color: #3a3e64;
+position: absolute;
+width: 100%;
+height: 250px;
+}
+
+.page7_main{
+position: relative;
+display: flex;
+justify-content: space-between;
+padding-top: 75px;
+margin-bottom: 86px;
+}
+
+.page7_block{
+width: 32%;
+text-align: center;
+}
+
+.page7_block_heading{
+font-family: 'Raleway';
+font-weight: 700;
+font-size: 14px;
+color: #fff;
+text-transform: uppercase;
+margin-bottom: 25px;
+}
+
+.page7_block_text{
+font-family: 'Raleway';
+font-weight: 700;
+font-size: 14px;
+color: #757893;
+}
+
+.page7_block_logos{
+display: flex;
+justify-content: space-between;
+margin: 0 auto;
+width: 135px;
+}
+
+.page7_block_logos_facebook{
+width: 40px;
+height: 40px;
+border: 1px solid #c6cacc;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+.page7_block_logos_twitter{
+width: 40px;
+height: 40px;
+border: 1px solid #c6cacc;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+.page7_block_logos_instagram{
+width: 40px;
+height: 40px;
+border: 1px solid #c6cacc;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+.page7_block_logos_facebook:hover{
+background-color: #e8ecee;
+}
+
+.page7_block_logos_twitter:hover{
+background-color: #e8ecee;
+}
+
+.page7_block_logos_instagram:hover{
+background-color: #e8ecee;
+}
+
+/*------------------------7PAGE-END--------------------------------*/
+/*------------------------8PAGE-BEGIN------------------------------*/
+.page8_bg{
+background-color: #313454;
+position: absolute;
+width: 100%;
+height: 110px;
+}
+
+.page8_main{
+position: relative;
+display: flex;
+justify-content: space-around;
+padding: 30px 405px;
+}
+
+.page8_text{
+font-family: 'Raleway';
+font-weight: 700;
+font-size: 14px;
+color: #808080;
+text-align: center;
+line-height: 25px;
+}
+
+.page8_text span{
+color: #fff;
+}
+/*------------------------8PAGE-END--------------------------------*/
