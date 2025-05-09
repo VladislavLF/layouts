@@ -1,4 +1,3 @@
-![image](https://github.com/user-attachments/assets/bb838518-c893-440d-872f-ed6a9d6d88d2)![image](https://github.com/user-attachments/assets/b284e832-288c-40f4-9a7e-2b0666e0e92c)# layouts
 **Верстка ActiveBox**
 ![image](https://github.com/user-attachments/assets/5d1998ba-1197-4536-afed-537336e68fc7)
 ![image](https://github.com/user-attachments/assets/f3032188-a021-497f-a3d7-bd26c5142fd1)
