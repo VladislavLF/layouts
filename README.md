@@ -1,2 +1,8 @@
-# layouts
-Примеры моей верстки адаптивных сайтов
+![image](https://github.com/user-attachments/assets/bb838518-c893-440d-872f-ed6a9d6d88d2)![image](https://github.com/user-attachments/assets/b284e832-288c-40f4-9a7e-2b0666e0e92c)# layouts
+**Верстка ActiveBox**
+![image](https://github.com/user-attachments/assets/5d1998ba-1197-4536-afed-537336e68fc7)
+![image](https://github.com/user-attachments/assets/f3032188-a021-497f-a3d7-bd26c5142fd1)
+![image](https://github.com/user-attachments/assets/9d02c69b-08da-4d9a-b31e-71c0241431c1)
+![image](https://github.com/user-attachments/assets/abb09be9-0c54-4bd4-be4f-f46a7c891cc9)
+
+
